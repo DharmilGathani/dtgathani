@@ -3,13 +3,19 @@
 <head>
 	<title></title>
 	<style>
-	table, th, td {
+	table, td, th{
   border: 1px solid black;
+  font-size: 20px;
  
 }
+.large{height: 50px;
+    font-size: 16pt;
+}
+p{font-size: 24px}
 body{background-color:powderblue;}
 h3{color:red;}
 h4{color:red;}
+
 	</style>
 <script>
 	function abc()
@@ -21,9 +27,9 @@ h4{color:red;}
 </head>
 <body>
 	<center>
-	<table>
+	<table style=  "width: 1000px;" >
 	<tr>
-		<td><img src="HOME PAGE IMAGES/1620123447-shopeasy.png"height="80"width="100"></td>
+		<td><img src="1620123447-shopeasy.png"height="80"width="100"></td>
 		
 		<th colspan="6">SHOP EASY</th>
 		</tr>
@@ -31,8 +37,8 @@ h4{color:red;}
 		<tr>
 			<h3>
 		<td><h3>QTY</h3></td>
-		<td><h3>
-Name of Items</h3></td>
+		<td><h3><b>
+Name of Items</b></h3></td>
 		<td><h3>
 Rate</h3></td>
 		<td ><h3>
@@ -42,7 +48,7 @@ Amount</h3></td>
 
 		<tr>
 			<td>1</td>
-			<td>Mi Notebook Horizon</td>
+			<td><b>Mi Notebook Horizon</b></td>
 			<td>₹53,999</td>
 			<td>₹53,999</td>
 		</tr>
@@ -93,12 +99,12 @@ Amount</h3></td>
 
 
 	<form>
-			DELIVERY INFORMATION
-			<BR><BR>
-			Name<input type="text"><br><BR>
-			Email<input type="text"><br><BR>
-			Contact<input type="text"><br><BR>
-			Address<input type="text"><br><BR>
+			<h2>DELIVERY INFORMATION</h2>
+			
+			<p>Name<input type="text" height="1000"></p>
+			<p>Email<input type="text"></p>
+			<p>Contact<input type="text"></p>
+			<p>Address<input type="text"></p>
 			
 		<input type="Submit" value="Confirm"  onclick="abc() "style="background-color:#1B4F72 ;color:white;width:220px; height:60px;">
 	</form>
